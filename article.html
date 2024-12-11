@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Article</title>
+
+    <link rel="stylesheet" href="ARTICLE.css">
+    <link rel="stylesheet" href="FOOTER.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="IMAGES/FOOTER/Logo.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="article.html">Produits</a>
+            <a href="histoire.html">À propos</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="cart-message" id="cartMessage">Produit ajouté au panier !</div>
+
+    <main class="main-content">
+        <div class="product-grid">
+            <div class="product-images-container">
+                <div class="product-image">
+                    <img src="IMAGES/ARTICLE/art1.png" alt="MONA OR 18k">
+                </div>
+                <div class="arrow arrow-left">❮</div>
+                <div class="arrow arrow-right">❯</div>
+            </div>
+            <div class="product-info">
+                <h1>MONA OR 18k</h1>
+                <div class="rating">★★★★★</div>
+                <div class="price">250€</div>
+
+                <div class="stock-info">
+                    <span>⌛</span>
+                    <span>plus que 6 en stock</span>
+                </div>
+
+                <div class="delivery-info">
+                    <span>🚚</span>
+                    <span>livraison entre le <span class="fw-bold">05 - 08 Novembre</span></span>
+                </div>
+
+                <div class="model-options">
+                    <div class="model-title">MODÈLE</div>
+                    <div class="model-buttons">
+                        <button class="model-btn">OR 18K</button>
+                        <button class="model-btn">ARGENT</button>
+                        <button class="model-btn">OR ROSE</button>
+                        <button class="model-btn">OR 8K</button>
+                    </div>
+                </div>
+
+                <div class="quantity-selector">
+                    <div class="quantity-title">QUANTITÉ</div>
+                    <div class="quantity-control">
+                        <button class="quantity-btn">-</button>
+                        <div class="quantity-display" style="font-family: 'Cinzel', serif; font-weight: 700;">1</div>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+        </div>
+
+        <section class="description">
+            <h2>Description</h2>
+            <p style="text-align: justify; font-weight: 500;">Un bijou unique alliant élégance et audace. Composé de fines chaînes dorées ornées de médaillons
+                délicats, il habille le visage et le cou avec grâce. Parfait pour sublimer vos looks, ce design
+                avant-gardiste reflète l'alliance du savoir-faire artisanal et de la modernité. Faites de cette création
+                une expression de votre singularité.</p>
+        </section>
+
+        <section class="faq">
+            <h2 class="faq-title">FAQ</h2>
+            <div class="faq-item">
+                <div class="faq-question" style="font-weight: 500;">Comment choisir la bonne taille ?</div>
+                <div class="faq-answer" style="font-weight: 500;">
+                    <p>Oui, vous pouvez modifier votre commande tant qu'elle n'est pas passée en production.
+                        Contactez-nous rapidement via notre service client pour effectuer des modifications.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" style="font-weight: 500;">Quelles sont les options de livraison disponibles ?</div>
+                <div class="faq-answer" style="font-weight: 500;">
+                    <p>Nous proposons plusieurs options de livraison, allant de la livraison standard (3 à 5 jours
+                        ouvrables) et express (1 à 2 jours ouvrables) au retrait gratuit en boutique, avec un suivi
+                        assuré pour chaque envoi et un numéro de suivi envoyé par email dès l'expédition.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" style="font-weight: 500;">Quelle est la politique de retour ?</div>
+                <div class="faq-answer" style="font-weight: 500;">
+                    <p>Nous offrons une garantie de satisfaction de 30 jours. Si vous n'êtes pas satisfait de votre
+                        achat, vous pouvez retourner le produit dans son état d'origine et dans son emballage d'origine
+                        pour un remboursement complet. Les frais de retour sont à la charge du client. Pour les articles
+                        personnalisés, les retours ne sont acceptés qu'en cas de défaut de fabrication.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-products">
+            <h2>Venez découvrir</h2>
+            <div class="row gx-3 pt-5">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="IMAGES/ACCUEIL/carre_img1.png" class="w-100" style="border-radius: 15px;">
+                        <p class="description-img mt-3 mb-1 !important">MONA OR 18K</p>
+                        <p class="description-img mb-1 !important" style="font-weight: 700 !important;">250€</p>
+                        <a href="article.html" class="lien-acht">Acheter</a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="IMAGES/ACCUEIL/carre_img2.png" class="w-100" style="border-radius: 15px;">
+                        <p class="description-img mt-3 mb-1 !important">MONA OR 18K</p>
+                        <p class="description-img mb-1 !important" style="font-weight: 700 !important;">250€</p>
+                        <a href="article.html" class="lien-acht">Acheter</a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="IMAGES/ACCUEIL/carre_img3.png" class="w-100" style="border-radius: 15px;">
+                        <p class="description-img mt-3 mb-1 !important">MONA OR 18K</p>
+                        <p class="description-img mb-1 !important" style="font-weight: 700 !important;">250€</p>
+                        <a href="article.html" class="lien-acht">Acheter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+<!-- FOOTER -->
+<footer class="footer text-center py-4" style="background-color: black;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-start text-light">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Products</a></li>
+            <li><a href="histoire.html">History</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-6 text-end text-light align-self-end">
+          <div>
+            <img src="IMAGES/FOOTER/Logo.png" alt="Papi'd - Artisan Bijoutier" class="w-25">
+          </div>
+          <div class="social-icons mt-3">
+            <a href="#"><img src="IMAGES/FOOTER/Logo_X.png" alt="X" class="px-3"></a>
+            <a href="#"><img src="IMAGES/FOOTER/Logo_insta.png" alt="Instagram" class="px-3"></a>
+            <a href="#"><img src="IMAGES/FOOTER/Logo_youtube.png" alt="YouTube" class="px-3"></a>
+            <a href="#"><img src="IMAGES/FOOTER/Logo_LinkedIn.png" alt="LinkedIn" class="ps-3"></a>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+    <script>
+        // Gestion de la quantité
+        const minusBtn = document.querySelector('.quantity-btn:first-child');
+        const plusBtn = document.querySelector('.quantity-btn:last-child');
+        const quantityDisplay = document.querySelector('.quantity-display');
+        let quantity = 1; // Valeur initiale
+
+        minusBtn.addEventListener('click', () => {
+            if (quantity > 1) {
+                quantity--;
+                quantityDisplay.textContent = quantity;
+            }
+        });
+
+        plusBtn.addEventListener('click', () => {
+            if (quantity < 99) {
+                quantity++;
+                quantityDisplay.textContent = quantity;
+            }
+        });
+
+        // Gestion des boutons de modèle
+        const modelBtns = document.querySelectorAll('.model-btn');
+        modelBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                modelBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+
+        // Gestion du bouton ajouter au panier
+        const addToCartBtn = document.querySelector('.add-to-cart');
+        const cartMessage = document.getElementById('cartMessage');
+
+        addToCartBtn.addEventListener('click', () => {
+            const selectedModel = document.querySelector('.model-btn.active');
+            if (!selectedModel) {
+                alert('Veuillez sélectionner un modèle');
+                return;
+            }
+
+            cartMessage.style.display = 'block';
+
+            const cartItem = {
+                name: 'MONA OR 18k',
+                model: selectedModel.textContent,
+                quantity: quantity,
+                price: 250
+            };
+            console.log('Ajouté au panier:', cartItem);
+
+            setTimeout(() => {
+                cartMessage.style.display = 'none';
+            }, 3000);
+        });
+
+
+
+        const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        
+        question.addEventListener('click', () => {
+            // Ferme toutes les autres réponses
+            faqItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                }
+            });
+            
+            // Bascule l'état actif de l'élément cliqué
+            item.classList.toggle('active');
+        });
+    });
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer a{
+      color: white;
+      text-decoration: none;
+  }
+
+  .list-unstyled a{
+    font-size: smaller;
+  }

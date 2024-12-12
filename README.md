@@ -54,8 +54,27 @@ Suite à un TD d'application, nous avons conçu et suivi un sprint à travers la
 
 [Visitez le document SPRINT](https://docs.google.com/document/d/1ZtKmrQibL3nCJMrS41dliafxbMIAfMi1tCL682SZZj8/edit?tab=t.0) 
 
+Pour tester la base de données, il vous suffit d'aller à la page connexion et vous connecter avec ces trois login ayant le même mot de passe haché: 
+Login : vendeur / client / admin 
+Mot de passe : test
+
 
 ## Répartition et crédits des membres
+
+ **Les membres:** Ibtissem CHTIOUI, Zeinabou BAL, Sheinez BEN BOUBAKER, Assia MAHDJOUB, Saffana SALADOUINE  
+Cheffe de projet: Ibtissem CHTIOUI  
+
+
+ **Développement de l'interface :** Sheinez, Zeinabou, Assia, Saffana, Ibtissem  
+
+
+ **Developpement back-end et BDD:** Ibtissem  
+
+ **Maquette du site:** Assia, Sheinez
+
+ **Conception de la BDD:** Zeinabou, Saffana
+
+ **Rédaction des livrables et suivi du projet:** Ibtissem
 
 
 
